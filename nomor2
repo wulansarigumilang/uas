@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int faktorial (int a)  
+{
+    if (a==0)
+        return 1;
+    else
+        return (a*faktorial(a-1));
+}
+
+int main (){
+    int x;
+    cout<<"Mencari Nilai Faktorial \n";
+    cout<<"Masukkan nilai n = "; 
+    cin>>x;
+    cout<<"Faktorial "<<x<<"! = "<<faktorial(x)<<endl;
+}
