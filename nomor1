@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+int main () {
+	
+    char pass[6];
+    int password;
+    int i;
+    
+    cout <<"kode yang dimasukan : ";
+    cin >> pass [i] ;
+    
+    for (int i=1 ; i<6 ; i++)
+    {
+    	if (pass [i] == ' ')
+    	{
+    	    password == '2';
+        }
+        
+        else if ((pass [i] == 'a') || (pass [i] == 'b') || (pass [i] == 'c'))
+        {
+            password == '2';
+        }
+    	
+    	else if ((pass [i] == 'd') || (pass [i] == 'e') || (pass [i] == 'f'))
+        {
+            password == '3';
+        }
+        
+        else if ((pass [i] == 'g') || (pass [i] == 'h') || (pass [i] == 'i'))
+        {
+            password == '4';
+        }
+        
+        else if ((pass [i] == 'j') || (pass [i] == 'k') || (pass [i] == 'l'))
+        {
+            password == '5';
+        }
+        
+        else if ((pass [i] == 'm') || (pass [i] == 'n') || (pass [i] == 'o'))
+        {
+            password == '6';
+        }
+        
+        else if ((pass [i] == 'p) || (pass [i] == 'q') || (pass [i] == 'r'))
+        {
+            password == '7';
+        }
+        
+        else if ((pass [i] == 's') || (pass [i] == 't') || (pass [i] == 'u') || (pass [i] == 'v'))
+        {
+            password == '8';
+        }
+        
+        else if ((pass [i] == 'w') || (pass [i] == 'x') || (pass [i] == 'y') || (pass [i] == 'z'))
+        {
+            password == '9';
+        }
+    }
+    
+    cout <<"kode yang disimpan : "<<password;
+
+ return 0 ;      
+    }
